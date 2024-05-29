@@ -33,6 +33,11 @@ return {
         expandtab = false, -- ALVIN: disables the use of spaces in tab
         tabstop = 8, -- ALVIN: number of spaces in a tab
         shiftwidth = 8, -- ALVIN: number of spaces inserted for indentation
+
+        -- ALVIN: THESE FONT SETTINGS ARE STORED IN THE NEOVIDE CONFIG FILES
+        -- [font]
+        -- normal = ["JetBrainsMono Nerd Font Mono", "JetBrains Mono", "Noto Color Emoji"]
+        -- size = 10
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
