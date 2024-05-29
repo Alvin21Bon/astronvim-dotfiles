@@ -30,6 +30,9 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        expandtab = false, -- ALVIN: disables the use of spaces in tab
+        tabstop = 8, -- ALVIN: number of spaces in a tab
+        shiftwidth = 8, -- ALVIN: number of spaces inserted for indentation
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
