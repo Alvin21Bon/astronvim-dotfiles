@@ -32,3 +32,18 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+# Font Settings
+
+#### Font settings for neovide need to be set in the neovide config file
+
+The neovide config file is located at `~/.config/neovide/config.toml`
+
+**It should include the following:**
+
+```
+[font]
+normal = ["JetBrainsMono Nerd Font Mono", "JetBrains Mono", "Noto Color Emoji"]
+size = 10
+```
+
