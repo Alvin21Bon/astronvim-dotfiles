@@ -11,4 +11,5 @@ return {
 
   -- LANGUAGE PACKS
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.typescript" },
 }
