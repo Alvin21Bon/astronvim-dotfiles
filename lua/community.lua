@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
 
   { import = "astrocommunity.editing-support.suda-vim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
   -- LANGUAGE PACKS
   { import = "astrocommunity.pack.cpp" },
