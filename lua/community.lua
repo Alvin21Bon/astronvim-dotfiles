@@ -7,4 +7,7 @@ return {
   "AstroNvim/astrocommunity",
 
   { import = "astrocommunity.editing-support.suda-vim" },
+
+  -- LANGUAGE PACKS
+  { import = "astrocommunity.pack.cpp" },
 }
