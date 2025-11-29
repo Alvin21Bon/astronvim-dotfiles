@@ -11,6 +11,8 @@ return {
   { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.test.neotest" },
 
+  { import = "astrocommunity.media.cord-nvim" },
+
   -- LANGUAGE PACKS
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.typescript" },
