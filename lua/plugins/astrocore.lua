@@ -32,6 +32,10 @@ return {
 			n = {
 				["<C-d>"] = {"<C-d>zz"},
 				["<C-u>"] = {"<C-u>zz"},
+				["<C-S-h>"] = {"<C-w>H", desc = "Move window left"},
+				["<C-S-j>"] = {"<C-w>J", desc = "Move window down"},
+				["<C-S-k>"] = {"<C-w>K", desc = "Move window up"},
+				["<C-S-l>"] = {"<C-w>L", desc = "Move window right"},
 			},
 		},
 	},
