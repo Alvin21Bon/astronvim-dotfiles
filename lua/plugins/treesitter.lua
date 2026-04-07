@@ -1,8 +1,13 @@
+-- Treesitter customizations are handled with AstroCore in v6;
+-- nvim-treesitter is now just a parser download utility.
+
 ---@type LazySpec
 return {
-	"nvim-treesitter/nvim-treesitter",
+	"AstroNvim/astrocore",
+	---@type AstroCoreOpts
 	opts = {
-		ensure_installed = "all",
-		ignore_install = { "ipkg" },
+		treesitter = {
+			ensure_installed = "all",
+		},
 	},
 }

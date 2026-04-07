@@ -8,7 +8,6 @@ return {
 
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
-  { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.test.neotest" },
 
   { import = "astrocommunity.media.cord-nvim" },
