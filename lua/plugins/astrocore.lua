@@ -31,6 +31,16 @@ return {
 					end,
 				},
 			},
+			mdx_no_diagnostics = {
+				{
+					event = { "BufReadPost", "BufNewFile" },
+					pattern = "*.mdx",
+					desc = "Silence LSP diagnostics in .mdx (tsx workaround spams on markdown)",
+					callback = function(event)
+						vim.diagnostic.enable(false, { bufnr = event.buf })
+					end,
+				},
+			},
 		},
 
 		mappings = {
