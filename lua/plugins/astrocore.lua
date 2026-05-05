@@ -4,6 +4,11 @@ return {
 
 	---@type AstroCoreOpts
 	opts = {
+		filetypes = {
+			extension = {
+				mdx = "typescriptreact",
+			},
+		},
 		options = {
 			opt = {
 				expandtab = false,
