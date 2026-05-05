@@ -12,7 +12,7 @@ return {
 		options = {
 			opt = {
 				expandtab = false,
-				tabstop = 8,
+				tabstop = 2,
 				shiftwidth = 0,
 			},
 		},
