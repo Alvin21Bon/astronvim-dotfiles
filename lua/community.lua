@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.test.neotest" },
 
-  { import = "astrocommunity.media.cord-nvim" },
+  -- { import = "astrocommunity.media.cord-nvim" },
 
   -- LANGUAGE PACKS
   { import = "astrocommunity.pack.cpp" },
